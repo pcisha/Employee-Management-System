@@ -1,2 +1,2 @@
 # Employee-Management-System
-Employee Management System (In PHP)
+Employee Management System (In PHP, MySQL)
