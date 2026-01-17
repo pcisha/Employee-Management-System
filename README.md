@@ -1,6 +1,6 @@
 # Employee Management System
 Employee Management System (In PHP, MySQL, CSS, JavaScript, JQuery and HTML)
 
-Author: Prachi Shah @ https://pcisha.my.canva.site/
+Author: Prachi Shah @ https://www.linkedin.com/in/prachisms/
 
 P.S. The default copyright laws apply.
