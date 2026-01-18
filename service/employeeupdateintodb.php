@@ -64,7 +64,7 @@ $present=false;
 $empid=$_SESSION['employee_id'];
 //echo "emp is ".$empid;
 
-$dbc = mysqli_connect('silo.cs.indiana.edu', 'b561f13_amlakhan', 'password', 'b561f13_amlakhan')
+$dbc = mysqli_connect('silo.cs.indiana.edu', 'abc_username', 'password', 'abc_password')
     or die('Error connecting to MySQL server.');
 	
 

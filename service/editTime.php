@@ -13,7 +13,7 @@ else
 	header("Location: login.html");
 }
 date_default_timezone_set('America/Indiana/Indianapolis');
-$con=mysqli_connect("silo.cs.indiana.edu","b561f13_amlakhan","password","b561f13_amlakhan");
+$con=mysqli_connect("silo.cs.indiana.edu","abc_username","password","abc_password");
 // Check connection
 
 if (mysqli_connect_errno())

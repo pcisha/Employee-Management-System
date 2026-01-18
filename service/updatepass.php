@@ -3,7 +3,7 @@
 	
 	$password = $_GET['password'];
 	
-	$dbc = mysqli_connect('silo.cs.indiana.edu', 'b561f13_amlakhan', 'password', 'b561f13_amlakhan')
+	$dbc = mysqli_connect('silo.cs.indiana.edu', 'abc_username', 'password', 'abc_password')
     or die('Error connecting to MySQL server.');
 
   $query = "UPDATE authenticate SET password='$password' WHERE employee_id='$employeeid'";

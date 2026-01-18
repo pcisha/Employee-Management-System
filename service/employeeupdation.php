@@ -250,7 +250,7 @@ document.getElementById('firstname').focus();
 <option value="0">Select One
 <?php
 session_start();
-$dbc = mysqli_connect('silo.cs.indiana.edu', 'b561f13_amlakhan', 'password', 'b561f13_amlakhan')
+$dbc = mysqli_connect('silo.cs.indiana.edu', 'abc_username', 'password', 'abc_password')
     or die('Error connecting to MySQL server.');
 
   $query = "SELECT designation_id, designation_name FROM designation_mapping  where designation_id<>3";
@@ -285,7 +285,7 @@ $dbc = mysqli_connect('silo.cs.indiana.edu', 'b561f13_amlakhan', 'password', 'b5
 <td>
 <?php
 
-$dbc = mysqli_connect('silo.cs.indiana.edu', 'b561f13_amlakhan', 'password', 'b561f13_amlakhan')
+$dbc = mysqli_connect('silo.cs.indiana.edu', 'abc_username', 'password', 'abc_password')
     or die('Error connecting to MySQL server.');
 
   $query = "SELECT skill_id, skill_name FROM skill";

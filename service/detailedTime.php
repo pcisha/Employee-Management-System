@@ -74,7 +74,7 @@ date_default_timezone_set('America/Indiana/Indianapolis');
 $day=$_POST['check'];
 $_SESSION['mod_date']=$day;
 //echo "the selected day is ".$day."</br>";
-$con=mysqli_connect("silo.cs.indiana.edu","b561f13_amlakhan","password","b561f13_amlakhan");
+$con=mysqli_connect("silo.cs.indiana.edu","abc_username","password","abc_password");
 // Check connection
 if (mysqli_connect_errno())
   {

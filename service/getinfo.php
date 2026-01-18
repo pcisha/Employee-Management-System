@@ -1,7 +1,7 @@
 <?php
 	$search = $_GET['search'];
 	session_start();
-	$dbc = mysqli_connect('silo.cs.indiana.edu', 'b561f13_amlakhan', 'password', 'b561f13_amlakhan')
+	$dbc = mysqli_connect('silo.cs.indiana.edu', 'abc_username', 'password', 'abc_password')
     or die('Error connecting to MySQL server.');
 
   $query = "SELECT * FROM employee WHERE employee_id=$search";
